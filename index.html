@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=JetBrains Mono"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Clyde <span>Suizo</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi It's <span>Clyde</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+          I'm an enthusiastic IT graduate with a strong background in different
+          tech areas like programming, software development, and desktop
+          support. During my studies, I worked on practical projects and
+          internships, learning hands-on and collaborating with diverse teams.
+          Check out my online portfolio to see what I've accomplished and learn
+          about my other interests.
+        </p>
+        <div class="btn-group">
+          <a
+            href="#"
+            class="btn"
+            onClick="window.open('./assets/Resume_Suizo.pdf')"
+            >Hire</a
+          >
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="image.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="heading">Experience</h2>
+
+      <div class="experience-container">
+        <div class="experience-box">
+          <div class="experience-info">
+            <h3>Frontend Development</h3>
+            <div class="experience-info-2">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <h4>HTML</h4>
+                <p>Intermediate</p>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <h4>CSS</h4>
+                <p>Intermediate</p>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <h4>JAVASCRIPT</h4>
+                <p>Basic</p>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <h4>UI Designer</h4>
+                <p>Basic</p>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="experience-box">
+          <div class="experience-info">
+            <h3>Desktop Support</h3>
+            <div class="experience-info-2">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Software Troubleshooting</h4>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Hardware Troubleshooting</h4>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Network Troubleshooting</h4>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Maintenance and Repair</h4>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="projects-box">
+        <!-- carousel -->
+        <div class="carousel">
+          <!-- list item -->
+          <div class="list">
+            <div class="item">
+              <img src="image/img1.jpg" />
+              <div class="content">
+                <div class="title">PRACTICE PROJECT</div>
+                <div class="topic">PORTFOLIO</div>
+
+                <div class="buttons">
+                  <button
+                    href=""
+                    onClick="window.open('https://github.com/clydeskieme1/portfolio-project')"
+                  >
+                    GITHUB
+                  </button>
+                  <button
+                    href=""
+                    onClick="window.open('https://clydesuizoportfolio.netlify.app/')"
+                  >
+                    DEMO
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="image/img2.jpg" />
+              <div class="content">
+                <div class="title">PRACTICE PROJECT</div>
+                <div class="topic">TETRIS</div>
+
+                <div class="buttons">
+                  <button
+                    href=""
+                    onClick="window.open('https://github.com/clydeskieme1/Tetris-Project')"
+                  >
+                    GITHUB
+                  </button>
+                  <button
+                    href=""
+                    onClick="window.open('https://suizotetris.netlify.app/')"
+                  >
+                    DEMO
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="image/img3.jpg" />
+              <div class="content">
+                <div class="title">PRACTICE PROJECT</div>
+                <div class="topic">SIMPLE CRUD</div>
+
+                <div class="buttons">
+                  <button
+                    href=""
+                    onClick="window.open('https://github.com/clydeskieme1/crud-project')"
+                  >
+                    GITHUB
+                  </button>
+                  <button
+                    href=""
+                    onClick="window.open('https://suizocrud.netlify.app/')"
+                  >
+                    DEMO
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="image/img4.jpg" />
+              <div class="content">
+                <div class="title">PRACTICE PROJECT</div>
+                <div class="topic">CALCULATOR</div>
+
+                <div class="buttons">
+                  <button
+                    href=""
+                    onClick="window.open('https://github.com/clydeskieme1/calc-project')"
+                  >
+                    GITHUB
+                  </button>
+                  <button
+                    href=""
+                    onClick="window.open('https://suizocalc.netlify.app/')"
+                  >
+                    DEMO
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- list thumbnail -->
+          <div class="thumbnail">
+            <div class="item">
+              <img src="image/img1a.jpg" />
+            </div>
+            <div class="item">
+              <img src="image/img2a.jpg" />
+            </div>
+            <div class="item">
+              <img src="image/img3a.jpg" />
+            </div>
+            <div class="item">
+              <img src="image/img4a.jpg" />
+            </div>
+          </div>
+          <!-- next prev -->
+
+          <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+          </div>
+          <!-- time running -->
+          <div class="time"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <div class="social">
+        <a
+          href=""
+          onClick="window.open('https://www.linkedin.com/in/clyde-andrie-suizo-b2a519286/')"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="" onClick="window.open('https://github.com/clydeskieme1')"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="" onClick="window.open('https://www.instagram.com/andysuiz/')"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a
+          href=""
+          onClick="window.open('https://www.facebook.com/clydeskieme1')"
+          ><i class="bx bxl-facebook-square"></i
+        ></a>
+        <a href="" onClick="window.open('mailto:clyde.suizoit@gmail.com')"
+          ><i class="bx bx-envelope"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul class="list">
+        <li>
+          <a href="#home">FAQ</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#home">About Me</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+      </ul>
+      <p class="copyright">© Clyde Suizo | All Rights Reserve</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
