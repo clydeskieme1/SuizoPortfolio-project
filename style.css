@@ -576,8 +576,9 @@ span {
     display: block;
     z-index: 6;
   }
+
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
   .footer ul li {
     font-size: 1.5rem;
@@ -652,7 +653,7 @@ span {
     margin: 0 auto;
   }
   .home-img img {
-    width: 56vw;
+    width: 70vw;
   }
   .experience h2 {
     margin-bottom: 3rem;
